@@ -1,0 +1,31 @@
+B1: Cài đặt MySQL:
+- mở Mysql Workbench -> chọn 1 trong những MySQL Connection
+- tạo database có tên là db_clinic
+- mở file sql có tên la data.sql
+- Nhấn crtl + A để chọn toàn bộ dòng lệnh, sau đó nhấn ctrl + shift + enter hoặc nhấn vào biểu tượng hình sấm sét ở vị trí thứ 3 từ trái sang trong thanh công cụ.
+- chuột phải vào database chọn refresh để reload lại data mới tạo
+* Một số tài khoản user để đăng nhập: mật khẩu là 123456, username trong cột username của bảng user
+- user patient:
++ user name: sminchindena, password: 123456
++ username: canticz, password: 123456
++ username: cjakel16, password: 123456
+- tài khoản của bác sỹ:
++ username: esumptionf, password: 123456
+- tài khoản của y tá:
++ username: kbrothwellc, password: 123456
+
+B2: Chạy project của SpringMVC
+- Mở project spring bằng NetBeans (thư mục ClinicWeb)
+- mở file databases.properties
+- thiết lập máy chủ tomcat để sử dụng 
+- chuột phải vào project Spring -> chọn clean and build.
+- Nhấp vào biểu tượng run project sau đó chờ cho project chạy thành công
+
+B3: Chãy project của ReactJS
+- Mở project reactjs bằng visual studio code (thư mục ClinicReact)
+- mở terminal của visual studio code sau đó nhập lệnh npm start để chạy reactjs
+- chở cho đến khi giao diện reactjs được hiển thị trên trình duyệt
+- sau đó, thực hiện các thao tác trên reactjs
+
+** Lưu ý: không thể thực hiện đăng nhập nhiều tài khoản khác nhau trong cùng 1 trình duyệt do thông tin user lưu dưới dạng cookie
+hoặc bật nhiều tab để sử dụng dễ gây ra lỗi. Nếu có lỗi, chỉ giữ lại 1 tab sau đó nhấn f5 reload lại.
